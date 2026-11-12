@@ -1,0 +1,5 @@
+point,p_loss,p_pauli,eta,c,LER_standard,LER_standard_best_tie,LER_oracle,tied_inputs,tied_mass
+"independent, eta=0.7",0.08,0.01,0.7,0.0,0.02827482,0.02827482,0.02827482,638,0.040299
+"correlated, eta=1.0",0.08,0.01,1.0,0.4,0.07672535,0.03511909,0.03511909,578,0.10066
+"correlated, eta=0.7",0.08,0.01,0.7,0.4,0.08780295,0.0571048,0.05708814,578,0.086665
+"strongly correlated, eta=0.7",0.08,0.01,0.7,0.6,0.1159231,0.07084603,0.06160174,578,0.11423

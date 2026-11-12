@@ -1,0 +1,14 @@
+# Phase 0 / demo
+numpy>=1.24
+matplotlib>=3.7
+# model_zoo.py
+scipy>=1.10
+scikit-learn>=1.4
+# Quantum stack (needed for phase0_color_code.py; NOT for steane_erasure_demo.py)
+stim>=1.13
+chromobius>=1.1
+sinter>=1.13
+pymatching>=2.1
+# Phase 1+ (learned decoder), add when you get there:
+# torch>=2.2
+# torch-geometric>=2.5

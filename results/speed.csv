@@ -1,0 +1,15 @@
+model,form,fit_seconds_at_Nmax,shots_per_sec
+lookup table,native sklearn/numpy,0.0363,3.118e+07
+naive Bayes,native sklearn/numpy,0.09867,7.006e+06
+logistic,native sklearn/numpy,0.2477,2.537e+07
+logistic+pairs,native sklearn/numpy,1.823,1.409e+06
+MLP 64x64,native sklearn/numpy,44.26,1.269e+06
+random forest,native sklearn/numpy,22.85,1.143e+05
+hist grad boost,native sklearn/numpy,2.795,5.644e+05
+kNN (k=25),native sklearn/numpy,1.263,340.4
+STANDARD,per-shot ML enumeration,0,5.388e+05
+any decoder,compiled 1024-entry LUT,0,3.05e+07
+hybrid: tie-break LUT,native sklearn/numpy,0.03632,3.077e+07
+hybrid: prior LUT,native sklearn/numpy,0.03431,2.832e+07
+hybrid: HGB + STANDARD LLR,native sklearn/numpy,2,8.907e+05
+hybrid: residual XGB,native sklearn/numpy,3.351,4.741e+05
